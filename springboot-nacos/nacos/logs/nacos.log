@@ -1,0 +1,458 @@
+2020-05-12 09:01:38,423 INFO Starting Nacos v1.1.4 on DESKTOP-9988QG3 with PID 6452 (E:\nacos\nacos\target\nacos-server.jar started by geer in E:\nacos\nacos\bin)
+
+2020-05-12 09:01:38,439 INFO The following profiles are active: standalone
+
+2020-05-12 09:01:41,719 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$c39bb0e4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 09:01:41,844 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 09:01:41,844 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7c137fd5' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 09:01:41,844 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$e8705396] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 09:01:41,860 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-05-12 09:01:42,422 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-05-12 09:01:42,438 INFO Starting service [Tomcat]
+
+2020-05-12 09:01:42,438 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-05-12 09:01:42,454 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\env\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\tools\xftp6\;D:\tools\xshell6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\java\env\bin;D:\java\env\jre\bin;D:\tools\Git\cmd;D:\java\apache-maven-3.6.3\bin;D:\java\apache-tomcat-9.0.34\lib;D:\java\apache-tomcat-9.0.34\lib\servlet-api.jar;D:\java\apache-tomcat-9.0.34\lib\jsp-api.jar;C:\Users\geer\AppData\Local\Microsoft\WindowsApps;;.]
+
+2020-05-12 09:01:42,563 INFO Initializing Spring embedded WebApplicationContext
+
+2020-05-12 09:01:42,563 INFO Root WebApplicationContext: initialization completed in 4062 ms
+
+2020-05-12 09:01:49,280 INFO Use Mysql as the driver
+
+2020-05-12 09:01:49,671 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-05-12 09:01:49,843 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2020-05-12 09:01:50,389 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2020-05-12 09:01:50,436 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fc0cc3, org.springframework.security.web.context.SecurityContextPersistenceFilter@20a8a64e, org.springframework.security.web.header.HeaderWriterFilter@73163d48, org.springframework.security.web.authentication.logout.LogoutFilter@57eda880, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@328cf0e1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1698fc68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65b3a85a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63b1d4fa, org.springframework.security.web.session.SessionManagementFilter@56a4479a, org.springframework.security.web.access.ExceptionTranslationFilter@565b064f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1698ee84]
+
+2020-05-12 09:01:50,530 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-05-12 09:01:50,561 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-05-12 09:01:50,655 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-05-12 09:01:50,655 INFO Started Nacos in 14.106 seconds (JVM running for 16.125)
+
+2020-05-12 09:01:50,655 INFO Nacos Log files: E:\nacos\nacos/logs/
+
+2020-05-12 09:01:50,655 INFO Nacos Conf files: E:\nacos\nacos/conf/
+
+2020-05-12 09:01:50,655 INFO Nacos Data files: E:\nacos\nacos/data/
+
+2020-05-12 09:01:50,655 INFO Nacos started successfully in stand alone mode.
+
+2020-05-12 09:01:54,404 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-05-12 09:01:54,404 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-05-12 09:01:54,420 INFO Completed initialization in 16 ms
+
+2020-05-12 09:08:18,828 INFO Expired JWT token.
+
+2020-05-12 09:08:18,842 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 09:11:48,252 INFO [capacityManagement] start correct usage
+
+2020-05-12 09:11:48,546 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 09:11:48,746 WARN clearConfigHistory start
+
+2020-05-12 09:21:48,548 INFO [capacityManagement] start correct usage
+
+2020-05-12 09:21:48,550 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 09:21:48,758 WARN clearConfigHistory start
+
+2020-05-12 09:31:48,551 INFO [capacityManagement] start correct usage
+
+2020-05-12 09:31:48,553 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 09:31:48,763 WARN clearConfigHistory start
+
+2020-05-12 09:41:48,554 INFO [capacityManagement] start correct usage
+
+2020-05-12 09:41:48,556 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 09:41:48,766 WARN clearConfigHistory start
+
+2020-05-12 09:51:48,557 INFO [capacityManagement] start correct usage
+
+2020-05-12 09:51:48,559 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 09:51:48,768 WARN clearConfigHistory start
+
+2020-05-12 10:01:48,560 INFO [capacityManagement] start correct usage
+
+2020-05-12 10:01:48,561 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 10:01:48,771 WARN clearConfigHistory start
+
+2020-05-12 10:11:48,563 INFO [capacityManagement] start correct usage
+
+2020-05-12 10:11:48,564 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 10:11:48,774 WARN clearConfigHistory start
+
+2020-05-12 10:21:48,566 INFO [capacityManagement] start correct usage
+
+2020-05-12 10:21:48,568 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 10:21:48,776 WARN clearConfigHistory start
+
+2020-05-12 10:31:48,569 INFO [capacityManagement] start correct usage
+
+2020-05-12 10:31:48,571 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 10:31:48,782 WARN clearConfigHistory start
+
+2020-05-12 10:41:48,573 INFO [capacityManagement] start correct usage
+
+2020-05-12 10:41:48,575 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 10:41:48,784 WARN clearConfigHistory start
+
+2020-05-12 10:51:48,576 INFO [capacityManagement] start correct usage
+
+2020-05-12 10:51:48,577 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 10:51:48,786 WARN clearConfigHistory start
+
+2020-05-12 11:01:48,579 INFO [capacityManagement] start correct usage
+
+2020-05-12 11:01:48,580 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 11:01:48,788 WARN clearConfigHistory start
+
+2020-05-12 11:06:41,348 INFO Expired JWT token.
+
+2020-05-12 11:06:41,349 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 11:11:48,582 INFO [capacityManagement] start correct usage
+
+2020-05-12 11:11:48,584 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 11:11:48,789 WARN clearConfigHistory start
+
+2020-05-12 11:21:48,586 INFO [capacityManagement] start correct usage
+
+2020-05-12 11:21:48,588 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 11:21:48,792 WARN clearConfigHistory start
+
+2020-05-12 11:31:48,590 INFO [capacityManagement] start correct usage
+
+2020-05-12 11:31:48,592 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 11:31:48,794 WARN clearConfigHistory start
+
+2020-05-12 11:41:48,594 INFO [capacityManagement] start correct usage
+
+2020-05-12 11:41:48,596 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 11:41:48,797 WARN clearConfigHistory start
+
+2020-05-12 11:50:30,326 INFO Expired JWT token.
+
+2020-05-12 11:50:30,326 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 11:51:48,598 INFO [capacityManagement] start correct usage
+
+2020-05-12 11:51:48,599 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 11:51:48,799 WARN clearConfigHistory start
+
+2020-05-12 12:01:48,601 INFO [capacityManagement] start correct usage
+
+2020-05-12 12:01:48,602 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 12:01:48,801 WARN clearConfigHistory start
+
+2020-05-12 12:11:48,604 INFO [capacityManagement] start correct usage
+
+2020-05-12 12:11:48,605 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 12:11:48,803 WARN clearConfigHistory start
+
+2020-05-12 12:21:48,606 INFO [capacityManagement] start correct usage
+
+2020-05-12 12:21:48,607 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 12:21:48,805 WARN clearConfigHistory start
+
+2020-05-12 12:31:48,609 INFO [capacityManagement] start correct usage
+
+2020-05-12 12:31:48,610 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 12:31:48,807 WARN clearConfigHistory start
+
+2020-05-12 12:41:48,612 INFO [capacityManagement] start correct usage
+
+2020-05-12 12:41:48,613 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 12:41:48,810 WARN clearConfigHistory start
+
+2020-05-12 12:51:48,615 INFO [capacityManagement] start correct usage
+
+2020-05-12 12:51:48,616 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 12:51:48,813 WARN clearConfigHistory start
+
+2020-05-12 13:01:48,618 INFO [capacityManagement] start correct usage
+
+2020-05-12 13:01:48,623 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 13:01:48,815 WARN clearConfigHistory start
+
+2020-05-12 13:11:48,626 INFO [capacityManagement] start correct usage
+
+2020-05-12 13:11:48,628 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 13:11:48,816 WARN clearConfigHistory start
+
+2020-05-12 13:21:48,629 INFO [capacityManagement] start correct usage
+
+2020-05-12 13:21:48,630 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 13:21:48,818 WARN clearConfigHistory start
+
+2020-05-12 13:31:48,631 INFO [capacityManagement] start correct usage
+
+2020-05-12 13:31:48,632 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 13:31:48,820 WARN clearConfigHistory start
+
+2020-05-12 13:40:38,437 INFO Expired JWT token.
+
+2020-05-12 13:40:38,437 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 13:41:48,633 INFO [capacityManagement] start correct usage
+
+2020-05-12 13:41:48,634 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 13:41:48,822 WARN clearConfigHistory start
+
+2020-05-12 13:51:48,641 INFO [capacityManagement] start correct usage
+
+2020-05-12 13:51:48,641 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 13:51:48,828 WARN clearConfigHistory start
+
+2020-05-12 14:01:48,651 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:01:48,654 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:01:48,830 WARN clearConfigHistory start
+
+2020-05-12 14:11:48,656 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:11:48,657 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:11:48,835 WARN clearConfigHistory start
+
+2020-05-12 14:15:06,912 INFO Expired JWT token.
+
+2020-05-12 14:15:06,913 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 14:21:48,659 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:21:48,661 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:21:48,837 WARN clearConfigHistory start
+
+2020-05-12 14:31:48,662 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:31:48,665 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:31:48,840 WARN clearConfigHistory start
+
+2020-05-12 14:41:48,666 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:41:48,667 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:41:48,843 WARN clearConfigHistory start
+
+2020-05-12 14:51:48,669 INFO [capacityManagement] start correct usage
+
+2020-05-12 14:51:48,671 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 14:51:48,845 WARN clearConfigHistory start
+
+2020-05-12 14:59:37,489 INFO Expired JWT token.
+
+2020-05-12 14:59:37,490 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 15:01:48,672 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:01:48,672 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:01:48,848 WARN clearConfigHistory start
+
+2020-05-12 15:11:48,674 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:11:48,676 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:11:48,855 WARN clearConfigHistory start
+
+2020-05-12 15:21:48,678 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:21:48,679 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:21:48,858 WARN clearConfigHistory start
+
+2020-05-12 15:31:48,680 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:31:48,682 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:31:48,859 WARN clearConfigHistory start
+
+2020-05-12 15:39:22,562 INFO Expired JWT token.
+
+2020-05-12 15:39:22,563 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 15:41:48,684 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:41:48,688 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:41:48,862 WARN clearConfigHistory start
+
+2020-05-12 15:51:48,689 INFO [capacityManagement] start correct usage
+
+2020-05-12 15:51:48,690 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 15:51:48,864 WARN clearConfigHistory start
+
+2020-05-12 16:01:48,692 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:01:48,695 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:01:48,866 WARN clearConfigHistory start
+
+2020-05-12 16:11:48,697 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:11:48,701 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:11:48,868 WARN clearConfigHistory start
+
+2020-05-12 16:19:15,397 INFO Expired JWT token.
+
+2020-05-12 16:19:15,398 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 16:19:15,528 INFO Expired JWT token.
+
+2020-05-12 16:19:15,529 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 16:21:48,703 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:21:48,704 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:21:48,870 WARN clearConfigHistory start
+
+2020-05-12 16:31:48,706 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:31:48,706 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:31:48,874 WARN clearConfigHistory start
+
+2020-05-12 16:41:48,707 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:41:48,708 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:41:48,875 WARN clearConfigHistory start
+
+2020-05-12 16:51:48,710 INFO [capacityManagement] start correct usage
+
+2020-05-12 16:51:48,711 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 16:51:48,879 WARN clearConfigHistory start
+
+2020-05-12 17:01:48,712 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:01:48,713 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:01:48,880 WARN clearConfigHistory start
+
+2020-05-12 17:11:48,714 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:11:48,718 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:11:48,881 WARN clearConfigHistory start
+
+2020-05-12 17:21:48,719 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:21:48,720 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:21:48,884 WARN clearConfigHistory start
+
+2020-05-12 17:31:48,722 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:31:48,723 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:31:48,886 WARN clearConfigHistory start
+
+2020-05-12 17:41:48,724 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:41:48,726 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:41:48,888 WARN clearConfigHistory start
+
+2020-05-12 17:51:48,727 INFO [capacityManagement] start correct usage
+
+2020-05-12 17:51:48,727 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 17:51:48,892 WARN clearConfigHistory start
+
+2020-05-12 18:00:55,601 INFO Expired JWT token.
+
+2020-05-12 18:00:55,601 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2020-05-12 18:01:48,728 INFO [capacityManagement] start correct usage
+
+2020-05-12 18:01:48,729 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 18:01:48,893 WARN clearConfigHistory start
+
+2020-05-12 18:11:48,730 INFO [capacityManagement] start correct usage
+
+2020-05-12 18:11:48,732 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-05-12 18:11:48,894 WARN clearConfigHistory start
+
